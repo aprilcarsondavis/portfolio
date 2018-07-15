@@ -1,0 +1,35 @@
+/***** Base *****/
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    height: 800px;
+}
+
+#work{
+    height: 1450px;
+}
+
+#about{
+    height: 650px;
+}
+
+#contact{
+    height: 400px;
+}
+
+/***** Grid *****/
+.full-width{
+    width: 1200px;
+}
+
+.half-width{
+    width: 600px;
+}
+
+.third-width{
+    width: 400px;
+}
+
+/***** Header *****/
