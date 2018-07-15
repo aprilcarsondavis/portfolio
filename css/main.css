@@ -5,6 +5,7 @@ body{
 
 header{
     height: 800px;
+    background:url("/img/hero-image-new.jpg") no-repeat cover;
 }
 
 #work{
