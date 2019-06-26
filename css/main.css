@@ -5,7 +5,7 @@ body{
 
 header{
     height: 800px;
-    background:url("/img/hero-image-new.jpg") no-repeat cover;
+    position: relative;
 }
 
 #work{
@@ -17,20 +17,72 @@ header{
 }
 
 #contact{
-    height: 400px;
+    height: 200px;
+}
+h3{
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    color: #101D3D;
 }
 
 /***** Grid *****/
 .full-width{
     width: 1200px;
+    margin: auto;
+    clear:both;
 }
 
 .half-width{
     width: 600px;
+    float: left;
 }
 
 .third-width{
     width: 400px;
+    float: left;
 }
 
 /***** Header *****/
+header img{
+    max-width:100%;
+}
+
+.header-text{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:#D25751;
+}
+header h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    
+}
+header h2{
+    text-align: center;
+    font-size: 28px;
+}
+
+/***** Work *****/
+
+#work div{
+   padding-top: 25px;
+}
+/***** About *****/
+#about{
+    background: #EAB5AE;
+    color: white;
+}
+#about .full-width{
+    padding: 25px 0;
+}
+
+/***** Contact *****/
+
+#contact{
+   text-align: center;
+}
+
